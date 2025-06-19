@@ -1,0 +1,94 @@
+*{
+    background-color: rgb(210, 255, 240);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+}
+
+.started-button{
+    border: 2px solid blue;
+    border-radius: 2px;
+    color: blue;
+    padding: 10px 35px;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 4em;
+    margin: 0px;  
+}
+
+#container-form{
+    display: flex;
+    flex-direction: column;
+    margin: 150px auto;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+.suscribe-form{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.suscribe-form *{
+    padding: 15px 60px;
+    border-radius: 2px;
+    border: 0px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#mail{
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 80px;
+}
+
+.suscribe-form button{
+    background-color:firebrick;
+    color: white;
+    cursor: pointer;
+}
+
+p{
+    color: gray;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:30px
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+}
+
+.features article{
+    width: 25%;
+}
+
+.content{
+    margin-left: 20px;
+}
+
+h3{
+    margin-top: 10px;
+}
