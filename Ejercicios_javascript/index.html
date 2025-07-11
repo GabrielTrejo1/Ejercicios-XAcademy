@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo Javascript</title>
+</head>
+<body>
+<main>
+    <h1>Aprendiendo Javascript 1</h1>
+    <section id="ej1">
+    <h2>Ejercicio 1:</h2>
+    <p>Escribir un programa que, dada una edad, imprima en consola si la persona es mayor de 18 años y puede conducir.</p>
+    <label for="edad">Ingresa tu edad:</label>
+    <input type="number" name="edad" id="edad">
+    <button onclick="edad()">Enviar</button>
+    <p id="resultEj1"></p>
+    </section>
+
+    <section id="ej2">
+    <h2>Ejercicio 2:</h2>
+    <p>Escribir un programa que, dada una nota (número), imprima en consola la calificación según la nota:<br>
+        0-3: Muy deficiente<br>
+        3-5: Insuficiente<br>
+        5-6: Suficiente<br>
+        6-7: Bien<br>
+        7-9: Notable<br>
+        9-10: Sobresaliente
+    </p>
+    <label for="nota">Ingresa tu nota:</label>
+    <input type="number" name="nota" id="nota">
+    <button onclick="nota()">Enviar</button>
+    <p id="resultEj2"></p>
+    </section>
+
+    <section id="ej3">
+    <h2>Ejercicio 3:</h2>
+    <p>Realizar un script que escriba una pirámide del 1 al 6 de la siguiente forma:<br>
+        1<br>
+        22<br>
+        333<br>
+        4444<br>
+        55555<br>
+        666666</p>
+    <label for="alturaEj3">Ingresa la altura de la piramide: Min: 1 Max: 9</label>
+    <input type="number" name="alturaEj3" id="alturaEj3" placeholder="Ej:6" min="3" max="10">
+    <button onclick="piramide1()">Enviar</button>
+    <p id="resultEj3"></p>
+    </section>
+
+    <section id="ej4">
+    <h2>Ejercicio 4:</h2>
+    <p>Realizar un script que escriba una pirámide del 1 al 6 de la siguiente forma:<br>
+        1<br>
+        12<br>
+        123<br>
+        1234<br>
+        12345<br>
+        123456</p>
+    <label for="alturaEj4">Ingresa la altura de la piramide: Max:9</label>
+    <input type="number" name="alturaEj4" id="alturaEj4" placeholder="Ej:6" min="3" max="10">
+    <button onclick="piramide2()">Enviar</button>
+    <p id="resultEj4"></p>
+    </section>
+</main>
+</body>
+<script src="script.js"></script>
+</html>
